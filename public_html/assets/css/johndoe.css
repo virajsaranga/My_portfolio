@@ -67,9 +67,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #12589f;
   text-align: left;
-  background-color: #fff;
+  background-color: #d5e8450d;
 }
 
 [tabindex="-1"]:focus {
@@ -11506,8 +11506,8 @@ pre .code {
   position: relative;
   height:40vh;
   min-height: 1000px;
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/avatar2.jpg);
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/avatar2.jpg);
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/cover2.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/cover2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
