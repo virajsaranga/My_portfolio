@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="public_html/assets/css/johndoe.css">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-    <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a>
+    <!-- <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a> -->
     <header class="header">
         <div class="container">
             <ul class="social-icons pt-3">
@@ -50,7 +50,7 @@
                     </li>
                 </ul>
                 <ul class="navbar-nav brand">
-                    <img src="assets/imgs/avatar1.jpg" alt="" class="brand-img">
+                    <img src="/public_html/assets/imgs/cover1.1.jpg" alt="" class="brand-img">
                     <li class="brand-txt">
                         <h5 class="brand-title">Viraj Ridiyagama</h5>
                         <div class="brand-subtitle">Full-Stack Developer</div>
@@ -160,7 +160,7 @@
                         </div>
                         <div class="card-body">
                             <h6 class="title text-danger">2022 - 2021</h6>
-                            <P>Commit member of SLIIT Ms club</P>
+                            <P>committee member of SLIIT Ms club</P>
                             <P class="subtitle">
                                  </P>
                            
@@ -179,7 +179,7 @@
                             <h6 class="title text-danger">2020 - 2024</h6>
                             <P>BSc (hons) Software Engineering</P>
                             <P class="subtitle">Graduated with honors in BSc Software Engineering from SLIIT, achieving a commendable score. Published research paper on IEEE as part of final year project. Demonstrated leadership and teamwork skills in academic projects, fostering collaboration and achieving excellence. Explore my portfolio for a showcase of academic achievements and collaborative endeavors</P>
-                            
+                            <br><br><br><br><br><br>
                         </div>
                     </div>
                 </div>
@@ -780,15 +780,15 @@
                 <div class="col-lg-8">
                     <div class="contact-form-card">
                         <h4 class="contact-title">Send a message</h4>
-                        <form action="">
+                        <form id="contactForm">
                             <div class="form-group">
-                                <input  class="form-control" type="text" placeholder="Name *" required>
+                                <input id="nameInput" class="form-control" type="text" placeholder="Name *" required>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" type="email" placeholder="Email *" required>
+                                <input id="emailInput" class="form-control" type="email" placeholder="Email *" required>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" id=" placeholder="Message *" rows="7" required></textarea>
+                                <textarea id="messageInput" class="form-control"  placeholder="Message" rows="7" required></textarea>
                             </div>
                             <div class="form-group ">
                                 <button type="submit" class="form-control btn btn-primary" >Send Message</button>
@@ -859,6 +859,11 @@
 
     <!-- JohnDoe js -->
     <script src="public_html/assets/js/johndoe.js"></script>
+
+     <!-- Include EmailJS library -->
+     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+     <!-- Include your JavaScript file -->
+     <script src="/public_html/assets/js/email.js"></script>
 
 </body>
 </html>
